@@ -265,7 +265,7 @@ const reportCard = {
     lowestGrade: 70,
     highestGrade: 96,
     averageGrade: 82,
-    grades: [70, 95, 80]
+    grades: [70, 96, 80]
 };
 
 updateReportCard(reportCard, 62) =>
@@ -273,7 +273,7 @@ updateReportCard(reportCard, 62) =>
     lowestGrade: 62,
     highestGrade: 96,
     averageGrade: 77,
-    grades: [70, 95, 80, 62]
+    grades: [70, 96, 80, 62]
 }
 
 updateReportCard(reportCard, 100) =>
@@ -281,6 +281,6 @@ updateReportCard(reportCard, 100) =>
     lowestGrade: 70,
     highestGrade: 100,
     averageGrade: 86.5,
-    grades: [70, 95, 80, 100]
+    grades: [70, 96, 80, 100]
 }
 ```
